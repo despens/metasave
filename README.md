@@ -26,8 +26,9 @@ Make `metasave.pl` executable and put it somewhere into your $PATH, or directly 
 
 Redirect the script's output into a file. Run this file to restore the metadata.
 
-Example:
+Example to save metadata of a user's home directory:
 
+    $ cd
     $ metasave.pl > metarestore.sh
     $ rsync -rva . destination
     $ cd destination
